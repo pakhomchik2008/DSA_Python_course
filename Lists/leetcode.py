@@ -134,7 +134,20 @@ arr = [1, 7, 3, 4, 9, 5]
 # nums = [1,2,3,1]
 # print(contains_duplicate(nums))
 
-# Question 6 - Permutation
+# Question 6 - Permutation(Palindrome)
 
-def permutation(list1,list2):
-    if len(list1) != len(list2): return False
+# def permutation(list1,list2):
+#     if len(list1) != len(list2): return False
+
+#     list1.sort()
+#     list2.sort()
+
+#     if list1 == list2: return True
+#     else: return False
+
+# # list1 = ['a','b','c']
+# # list2 = ['c','a','b']
+
+# list1 = [1,3,2,4]
+# list2 = [4,3,2,1]
+# print(permutation(list1,list2))
