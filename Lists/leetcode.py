@@ -100,10 +100,21 @@ arr = [1, 7, 3, 4, 9, 5]
 
 # print(first_second(myList))
 
-def remove_duplicates(arr):
+# def remove_duplicates(arr):
+#     lst = []
+#     for i in arr:
+#         if i not in lst:
+#             lst.append(i)
+
+# remove_duplicates([1, 1, 2, 2, 3, 4, 5])
+
+def pair_sum(myList, sum):
     lst = []
-    for i in arr:
-        if i not in lst:
-            lst.append(i)
-    
-remove_duplicates([1, 1, 2, 2, 3, 4, 5])
+    for i in range(len(myList)):
+        for j in range(i+1,len(myList)):
+            if myList[i]+myList[j] == sum:
+                lst.append(f'{str(myList[i])} + {str(myList[j])}')
+    return list(lst)
+
+
+print(pair_sum([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7))
