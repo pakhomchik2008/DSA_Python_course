@@ -120,16 +120,21 @@ arr = [1, 7, 3, 4, 9, 5]
 # print(pair_sum([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7))
 
 
-def contains_duplicate(nums):
-    seen = set()
-    for i in nums:
-        if i in seen:
-            return True
-        seen.add(i)
+# def contains_duplicate(nums):
+#     seen = set()
+#     for i in nums:
+#         if i in seen:
+#             return True
+#         seen.add(i)
 
-    return False
+#     return False
     
     
 
-nums = [1,2,3,1]
-print(contains_duplicate(nums))
+# nums = [1,2,3,1]
+# print(contains_duplicate(nums))
+
+# Question 6 - Permutation
+
+def permutation(list1,list2):
+    if len(list1) != len(list2): return False
