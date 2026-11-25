@@ -121,7 +121,14 @@ arr = [1, 7, 3, 4, 9, 5]
 
 
 def contains_duplicate(nums):
-    return set(nums) == nums
+    seen = set()
+    for i in nums:
+        if i in seen:
+            return True
+        seen.add(i)
+
+    return False
+    
     
 
 nums = [1,2,3,1]
