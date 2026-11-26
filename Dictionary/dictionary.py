@@ -8,22 +8,22 @@
 
 #dict() constructor
 
-my_dict = dict()
-print(my_dict)
+# my_dict = dict()
+# print(my_dict)
 
-my_dict2 = {}
-print(my_dict2)
+# my_dict2 = {}
+# print(my_dict2)
 
 #same thing
 # time complexity - O(1)
 # Space complexity - O(1)
 
 
-eng_sp = dict(one='uno',two='dos',three='tres')
-print(eng_sp) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
+# eng_sp = dict(one='uno',two='dos',three='tres')
+# print(eng_sp) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
 
-eng_sp1 = {'one':'uno','two':'dos','three':'tres'}
-print(eng_sp1) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
+# eng_sp1 = {'one':'uno','two':'dos','three':'tres'}
+# print(eng_sp1) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
 
 #time complexity ---> O(n)
 #space complexity ---> O(n)
@@ -37,3 +37,11 @@ print(eng_sp1) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
 # eng_sp_list = [('one','uno'), ('two','dos'),('three','tres')]
 # eng_sp3 = dict(eng_sp_list)
 # print(eng_sp3)
+
+
+# ------------------------- Dictionary in Memory --------------
+
+# a hash table is a way of doing key-value lookups.
+# You store the values in an array,
+#  and then use a hash function to find the index of the array cell that corresponds 
+# to your key-value pair
