@@ -45,3 +45,7 @@
 # You store the values in an array,
 #  and then use a hash function to find the index of the array cell that corresponds 
 # to your key-value pair
+
+#how has function works
+
+engToSp = {'one':'uno',}
