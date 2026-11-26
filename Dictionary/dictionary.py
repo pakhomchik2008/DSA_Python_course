@@ -14,3 +14,6 @@ print(my_dict2)
 eng_sp = dict(one='uno',two='dos',three='tres')
 print(eng_sp) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
 
+eng_sp1 = {'one':'uno','two':'dos','three':'tres'}
+print(eng_sp1) #{'one': 'uno', 'two': 'dos', 'three': 'tres'}
+
